@@ -1,0 +1,15 @@
+"use strict";
+var found = true;
+var grade = 88.6;
+var firstName = "Arnab";
+var lastName = 'Nandy';
+var pHold;
+pHold = found;
+console.log(pHold);
+pHold = grade;
+console.log("The grade is " + pHold);
+pHold = firstName;
+console.log("With Regular concatenation:");
+console.log("Hi " + pHold + " " + lastName);
+console.log("Use of template strings instead of regular concatenation:");
+console.log("Hi " + firstName + " " + lastName);
